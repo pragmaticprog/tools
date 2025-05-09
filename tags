@@ -36,4 +36,5 @@
 !_TAG_PROGRAM_VERSION	6.1.0	/39bae2cf2/
 !_TAG_ROLE_DESCRIPTION!Sh!heredoc	endmarker	/end marker/
 !_TAG_ROLE_DESCRIPTION!Sh!script	loaded	/loaded/
-stmake	README.md	/^# stmake$/;"	c
+battery.sh	README.md	/^# battery.sh$/;"	c
+stmake.sh	README.md	/^# stmake.sh$/;"	c
