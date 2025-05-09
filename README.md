@@ -10,6 +10,6 @@ This is a catch-all repo for tools I may create to help automate things. If any 
 | --- | --- | --- |
 |WeAct BlackPill v3.0| ST-Link v2|✔️Working|
 # battery.sh
-**Description**: A simple bash script that queries and returns your battery percentage via acpi. it uses awk to isolate the percentage from the output and then uses cut to limit it to 4 characters (100% is possible so thats why) and sed to stop it from reading any commas or spaces. Additionally, it has built-in checking of the percentage and gives notifications via notify-send when the percentage is below 50% and then another notification if it is below 25%.
+**Description**: A simple bash script that queries and returns your battery percentage via acpi. it gives notifications via notify-send when the percentage is below 50% and then another notification if it is below 25%.
 
 **Usage**: It doesn't echo the battery percentage to the terminal, but you could easily modify it to do so. I personally use it with a cron job to display my battery percentage in tmux
