@@ -1,6 +1,8 @@
 #!/bin/sh
 chars=",%"
+chars2=", "
 export DISPLAY=:0
+acpi -b | awk 'NR==1{print$4}' | cut -c 1-4 | sed "s/[$chars2]//g"
 PERCENT=$(acpi -b | awk 'NR==1{print$4}' | cut -c 1-3 | sed "s/[$chars]//g")
  if [ "$PERCENT" -lt "50" ];
  then
